@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../Range_Sensor_Basys3.srcs/sources_1/new/Pulse_Generator.vhd"
+vhdl xil_defaultlib  "../../../Range_Sensor_Basys3.srcs/sources_1/new/Clock_Generator.vhd"
+vhdl xil_defaultlib  "../../../Range_Sensor_Basys3.srcs/sources_1/new/Task3.vhd"
+vhdl xil_defaultlib  "../../../Range_Sensor_Basys3.srcs/sources_1/new/Range_Sensor.vhd"
+vhdl xil_defaultlib  "../../../Range_Sensor_Basys3.srcs/sources_1/new/Factor58_Divider.vhd"
+vhdl xil_defaultlib  "../../../Range_Sensor_Basys3.srcs/sources_1/new/Echo_Analyser.vhd"
+
+# Do not sort compile order
+nosort

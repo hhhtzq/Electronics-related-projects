@@ -1,0 +1,69 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.1 (lin64) Build 1846317 Fri Apr 14 18:54:47 MDT 2017
+| Date         : Thu Feb 28 14:18:58 2019
+| Host         : labb running 64-bit Ubuntu 16.04.6 LTS
+| Command      : report_control_sets -verbose -file Range_Sensor_control_sets_placed.rpt
+| Design       : Range_Sensor
+| Device       : xc7a35t
+-----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |     7 |
+| Unused register locations in slices containing registers |    11 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              13 |            8 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              80 |           20 |
+| Yes          | No                    | No                     |              32 |           10 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------------+-----------------------------------+-----------------------------------+------------------+----------------+
+|    Clock Signal    |           Enable Signal           |          Set/Reset Signal         | Slice Load Count | Bel Load Count |
++--------------------+-----------------------------------+-----------------------------------+------------------+----------------+
+|  fpgaclk_IBUF_BUFG |                                   |                                   |                2 |              2 |
+|  clk_BUFG          |                                   |                                   |                6 |             11 |
+|  clk_BUFG          |                                   | Task_4/Pulse_duration[15]_i_1_n_0 |                4 |             16 |
+|  clk_BUFG          | pulse_in_IBUF                     |                                   |                5 |             16 |
+|  clk_BUFG          | Task_4/Pulse_duration[15]_i_1_n_0 |                                   |                5 |             16 |
+|  clk_BUFG          |                                   | Task_3/Task_3/cnt                 |                8 |             32 |
+|  fpgaclk_IBUF_BUFG |                                   | Task_3/Task_1/clear               |                8 |             32 |
++--------------------+-----------------------------------+-----------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 2      |                     1 |
+| 11     |                     1 |
+| 16+    |                     5 |
++--------+-----------------------+
+
+

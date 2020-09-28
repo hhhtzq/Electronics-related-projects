@@ -1,0 +1,12 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/linuxlabb/Range_Sensor_Basys3/Range_Sensor_Basys3.srcs/sources_1/new/Pulse_Generator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Pulse_Module
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/linuxlabb/Range_Sensor_Basys3/Range_Sensor_Basys3.srcs/sources_1/new/Clock_Generator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Clock_Generator
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/linuxlabb/Range_Sensor_Basys3/Range_Sensor_Basys3.srcs/sources_1/new/Task3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Pulse_Generator
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/linuxlabb/Range_Sensor_Basys3/Range_Sensor_Basys3.srcs/sources_1/new/Range_Sensor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Range_Sensor
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/linuxlabb/Range_Sensor_Basys3/Range_Sensor_Basys3.srcs/sources_1/new/Factor58_Divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Factor58_Divider
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/linuxlabb/Range_Sensor_Basys3/Range_Sensor_Basys3.srcs/sources_1/new/Echo_Analyser.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Echo_Analyser

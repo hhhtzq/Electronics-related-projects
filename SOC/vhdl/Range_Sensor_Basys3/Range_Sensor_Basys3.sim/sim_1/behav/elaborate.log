@@ -1,0 +1,22 @@
+Vivado Simulator 2017.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2017.1/bin/unwrapped/lnx64.o/xelab -wto ab4af72a5feb4968834565d3ef99b12f --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot Range_Sensor_behav xil_defaultlib.Range_Sensor -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Factor58_Divider [factor58_divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.Clock_Generator [clock_generator_default]
+Compiling architecture behavioral of entity xil_defaultlib.Pulse_Module [pulse_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.Pulse_Generator [pulse_generator_default]
+Compiling architecture behavioral of entity xil_defaultlib.Echo_Analyser [echo_analyser_default]
+Compiling architecture behavioral of entity xil_defaultlib.range_sensor
+Built simulation snapshot Range_Sensor_behav

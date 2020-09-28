@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Tue Sep 19 15:17:23 2017
+# Process ID: 8156
+# Current directory: C:/ZynqBerry/te0726-zynqberrydemo1-vivado_2017.1-build_03_20170705132546/zynqberrydemo1/vivado/zynqberrydemo1.runs/zsys_axis_raw_unpack_0_0_synth_1
+# Command line: vivado.exe -log zsys_axis_raw_unpack_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zsys_axis_raw_unpack_0_0.tcl
+# Log file: C:/ZynqBerry/te0726-zynqberrydemo1-vivado_2017.1-build_03_20170705132546/zynqberrydemo1/vivado/zynqberrydemo1.runs/zsys_axis_raw_unpack_0_0_synth_1/zsys_axis_raw_unpack_0_0.vds
+# Journal file: C:/ZynqBerry/te0726-zynqberrydemo1-vivado_2017.1-build_03_20170705132546/zynqberrydemo1/vivado/zynqberrydemo1.runs/zsys_axis_raw_unpack_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source zsys_axis_raw_unpack_0_0.tcl -notrace

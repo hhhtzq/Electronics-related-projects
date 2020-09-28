@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1551359916">
+  <File Type="PA-TCL" Name="Range_Sensor.tcl"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Range_Sensor_postplace_pwropt.dcp"/>
+  <File Type="INIT-TIMING" Name="Range_Sensor_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="Range_Sensor_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Range_Sensor_drc_opted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Range_Sensor_methodology_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Range_Sensor.hwdef"/>
+  <File Type="OPT-TIMING" Name="Range_Sensor_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Range_Sensor_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Range_Sensor_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Range_Sensor_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Range_Sensor_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Range_Sensor_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Range_Sensor_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Range_Sensor_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Range_Sensor_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Range_Sensor_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Range_Sensor_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Range_Sensor_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Range_Sensor_timing_summary_placed.rpt"/>
+  <File Type="RDI-RDI" Name="Range_Sensor.vdi"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Range_Sensor_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Range_Sensor_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Range_Sensor_drc_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Range_Sensor_postroute_physopt.dcp"/>
+  <File Type="BG-BIT" Name="Range_Sensor.bit"/>
+  <File Type="ROUTE-DCP" Name="Range_Sensor_routed.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Range_Sensor_timing_summary_postroute_physopted.pb"/>
+  <File Type="BG-BIN" Name="Range_Sensor.bin"/>
+  <File Type="ROUTE-TIMING-PB" Name="Range_Sensor_timing_summary_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Range_Sensor_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-MSK" Name="Range_Sensor.msk"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Range_Sensor_timing_summary_routed.rpx"/>
+  <File Type="BITSTR-RBT" Name="Range_Sensor.rbt"/>
+  <File Type="ROUTE-SIMILARITY" Name="Range_Sensor_incremental_reuse_routed.rpt"/>
+  <File Type="BITSTR-NKY" Name="Range_Sensor.nky"/>
+  <File Type="ROUTE-CLK" Name="Range_Sensor_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Range_Sensor_postroute_physopt_bb.dcp"/>
+  <File Type="BG-DRC" Name="Range_Sensor.drc"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Range_Sensor_routed_bb.dcp"/>
+  <File Type="BITSTR-MMI" Name="Range_Sensor.mmi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Range_Sensor_timing_summary_postroute_physopted.rpt"/>
+  <File Type="BG-BGN" Name="Range_Sensor.bgn"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Range_Sensor_timing_summary_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="Range_Sensor.sysdef"/>
+  <File Type="BITSTR-BMM" Name="Range_Sensor_bd.bmm"/>
+  <File Type="ROUTE-STATUS-PB" Name="Range_Sensor_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="Range_Sensor_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Range_Sensor_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="Range_Sensor_power_summary_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Range_Sensor_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-PWR" Name="Range_Sensor_power_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="Range_Sensor_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Range_Sensor_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-PB" Name="Range_Sensor_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Range_Sensor_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC" Name="Range_Sensor_drc_routed.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Range_Sensor_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="Range_Sensor_timing_summary_physopted.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Pulse_Generator.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RangeSensorProgram/RangeSensor/training.srcs/sources_1/new/Pulse_Generator.vhd"/>
+        <Attr Name="ImportTime" Val="1516898726"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Clock_Generator.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RangeSensorProgram/RangeSensor/training.srcs/sources_1/new/Clock_Generator.vhd"/>
+        <Attr Name="ImportTime" Val="1516898666"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Task3.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RangeSensorProgram/RangeSensor/training.srcs/sources_1/new/Task3.vhd"/>
+        <Attr Name="ImportTime" Val="1516972198"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Range_Sensor.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RangeSensorProgram/Range_Sensor/Range_Sensor/Range_Sensor.srcs/sources_1/new/Range_Sensor.vhd"/>
+        <Attr Name="ImportTime" Val="1517437847"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Factor58_Divider.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RangeSensorProgram/RangeSensor/training.srcs/sources_1/new/Factor58_Divider.vhd"/>
+        <Attr Name="ImportTime" Val="1516898068"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Echo_Analyser.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RangeSensorProgram/RangeSensor/training.srcs/sources_1/new/Echo_Analyser.vhd"/>
+        <Attr Name="ImportTime" Val="1516974780"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Range_Sensor"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

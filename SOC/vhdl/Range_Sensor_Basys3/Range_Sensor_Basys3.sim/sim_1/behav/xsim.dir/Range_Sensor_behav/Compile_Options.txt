@@ -1,0 +1,1 @@
+-wto "ab4af72a5feb4968834565d3ef99b12f" --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "Range_Sensor_behav" "xil_defaultlib.Range_Sensor" -log "elaborate.log" 
