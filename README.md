@@ -8,15 +8,12 @@ Summarize the projects I did during uni studying
 
 | Project                                                      | Introduction                                                 |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| **[Master Thesis - Performance comparison between CPU and Image Sensor Processor when using Video stabilization plug-in](https://github.com/hhhtzq/Electronics-related-projects/blob/master/Master%20Thesis%20/Performance%20comparison%20between%20CPU%0Aand%20Image%20Sensor%20Processor%20when%20using%0AVideo%20stabilization%20plug-in.pdf)** | 
-In my Master's Thesis, I embarked upon an exhaustive research to analyze the power consumption, CPU, and RAM usage of
-Electronic Image Stabilization (EIS) in smartphone cameras. EIS is a method applied to reduce blur and unwanted movement in
-videos, but it is resource-intensive on mobile devices. My goal was to effectively measure and analyze these aspects to suggest
-potential improvements for optimization.
-The research provided an understanding of how EIS works and the resource consumption attached to it.
-Pinpointed integral parts of EIS that led to high CPU, RAM usage, and power consumption.
-his study contributed to the potential improvement of EIS implementation in mobile cameras, enabling better performance
+| **[Master Thesis - Performance comparison between CPU and Image Sensor Processor when using Video stabilization plug-in](https://github.com/hhhtzq/Electronics-related-projects/blob/master/Master%20Thesis%20/Performance%20comparison%20between%20CPU%0Aand%20Image%20Sensor%20Processor%20when%20using%0AVideo%20stabilization%20plug-in.pdf)** | In my Master's Thesis, I embarked upon an exhaustive research to analyze the power consumption, CPU, and RAM usage of Electronic Image Stabilization (EIS) in smartphone cameras. EIS is a method applied to reduce blur and unwanted movement in videos, but it is resource-intensive on mobile devices. My goal was to effectively measure and analyze these aspects to suggest potential improvements for optimization.
+* The research provided an understanding of how EIS works and the resource consumption attached to it.
+* Pinpointed integral parts of EIS that led to high CPU, RAM usage, and power consumption.
+* This study contributed to the potential improvement of EIS implementation in mobile cameras, enabling better performance
 and longer battery life for devices.|
+
 | **[Autonomous navigation system on ROSbot 2.0](https://github.com/hhhtzq/Electronics-related-projects/blob/master/Autonomous%20navigation%20system%20on%20ROSbot%202.0/Navigation_Group_Report.pdf)** |  An autonomous navigation system in ROSbot 2.0 for a project. The system, which utilizes a Real-Time Kinematic (RTK) GNSS receiver, a PID controller, and a Rplidar sensor, was designed to autonomously follow predefined waypoints and gather environmental data. While the robot was mostly successful, its accuracy varied with environment and weather conditions, which obstructed the GNSS receiver's signal.|
 | **[Energy harvesting feasibility study](https://github.com/hhhtzq/Electronics-related-projects/blob/master/Energy%20harvesting%20feasibility%20study/fesasibility%20study.pdf)** | The study showcases utilization of the TEH system and energy management circuits to transform waste heat from hot water into electrical energy. This powers a temperature monitoring system. The process involves a Thermoelectric Generator (TEG) converting thermal energy into electric energy which is stored in a capacitor. A boost circuit then uses this stored energy to provide a stable 3V voltage for the entire system. |
 | **[IONIZING RADIATION DETECTOR](https://github.com/hhhtzq/Electronics-related-projects/tree/master/ALFA-BETA-GAMMA-PARTICLE-IMAGE-PROCESSING)** | The incident particles or radiations interact with the sensor material and ionize it. The absorbed energy inside the sensor material is used to generate electron- hole pairs. These electrons and holes can be collected as electrical signals. The collected charges are processed by read-out or front-end electronics. |
