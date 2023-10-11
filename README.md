@@ -17,5 +17,4 @@ Summarize the projects I did during uni studying
 | **[Radon detection](https://github.com/hhhtzq/Electronics-related-projects/tree/master/Radon%20detection)** | **Build a circuit for detecting radon elements**             |
 | **[SOC](https://github.com/hhhtzq/Electronics-related-projects/tree/master/SOC)** | **System on chip**                                           |
 
- 
-
+ test
